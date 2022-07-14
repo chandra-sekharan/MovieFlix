@@ -15,8 +15,9 @@
         display: block;
     }
     .settingPopup{
-         left : 17.5%;
-         top: 51.5rem;
+        left : -5px;
+        top: 36rem;
+        transform: rotate(-90deg);
      }
     .menu-bar{
         width: 80px;

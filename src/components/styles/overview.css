@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Poppins,sans-serif;
+}
+.mainoverview{
+    position: relative;
+    top: 85.4px;
+    left: 240px;
+    width: 82.2%;
+    height: auto;
+}
+.mainoverview Button{
+    width: 90px;
+    height: 40px;
+    margin-left: 30px;
+    margin-top:60px;
+    background-color: transparent;
+    border: 2px solid red;
+    border-radius: 8px;
+    color: black;
+}
+.mainoverview Button:hover{
+    background-color:rgb(153, 10, 10) !important;
+    border: 2px solid black;
+}
+.overview{
+    width: 94.2%;
+    height: auto;
+    margin-top: 40px;
+}
+.overview .movieposter{
+    position: relative;
+    width: 90%;
+    top: 10px;
+    margin-left: 55px;
+    height: 280px;
+}
+.movieimage{
+    position: relative;
+    width: 225px;
+    top: -49px;
+    height: 278px;
+}
+.movieimage img{
+    position: relative;
+    top: 0px;
+    width: 225px;
+    height: 278px;
+    border-radius: 8px;
+    box-shadow: 2px 3px 6px black;
+}
+.des-section{
+    width: 100%;
+}
+.description{
+    margin-top:60px;
+    margin-left: 30px;
+    width: 50%;
+}
+.description p{
+    font-size: 23px;
+    color:black;
+}
+.bookmark{
+    position: relative;
+    width: 90px;
+    padding-left: 15px;
+    padding-right: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top: -50px;
+    left: 450px;
+    float: right;
+    color:black;
+    border: 2px solid red;
+    border-radius: 8px;
+}
+.bookmark:hover{
+    background-color: rgb(153, 10, 10);
+}
+.title{
+    position: relative;
+    left: 230px;
+    width: 86%;
+    height: 50px;
+}
+h1{
+    position: relative;
+    color: black;
+}
+.date{
+    position: absolute;
+    width: 80%;
+    left: 230px;
+    height: 50px;
+    top: 75px;
+}
+h3{
+    position: relative;
+    top: 10px;
+    left:0px;
+    font-size: 18px;
+    color: black;
+}
+.rating-sec{
+    position: relative;
+    width: 80%;
+    left: 230px;
+    top: -150px;
+    height: 50px;
+}
+
+.rating{
+    position: absolute;
+    left: 10px;
+    width: 30px;
+    height: 30px;
+    top: 7px;
+}
+h5{
+    position: relative;
+    top: 15px;
+    font-size: 18px;
+    left: 60px;
+    color: black;
+}
+.bookmark.active{
+    background-color: rgb(153, 10, 10);
+}
+.video{
+    position: relative;
+    top: 5px;
+    left: 140px;
+    width: 81.5%;
+    height:34rem ;
+}
+.bookmark svg{
+    position:relative;
+    top: 5px;
+    margin-left: -7px;
+    width: 15px;
+}

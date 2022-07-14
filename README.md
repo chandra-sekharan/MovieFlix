@@ -1,1 +1,1 @@
-[MovieFlix](https://movieflix-cs.herokuapp.com/)
+[MovieFlix](https://www.movieflix-cs.ml/)

@@ -137,6 +137,9 @@
     .content{
         width: 109%;
     }
+    .containerhome .content .card{
+        height:280px;
+    }
     .containerhome .content .card:hover #title{
         margin-bottom: 100px;
     

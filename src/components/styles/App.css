@@ -84,6 +84,7 @@
     
     .menubar svg{
         display: block !important;
+        
     }
     
     .menu-bar .active{
@@ -100,7 +101,7 @@
         height: 150px !important;
     }
     .card img {
-        width:110px !important; 
+        width:115px !important; 
         height: 180px !important;
     }
     .header img{
@@ -130,6 +131,12 @@
         width: 110% ;
         height: 200%;
         
+    }
+    .settingPopup{
+        position: absolute !important;
+        margin-left: 28px;
+        top: 80% !important;
+        transform: rotate(90deg);
     }
   }
 

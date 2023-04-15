@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+  }
+  .content::-webkit-scrollbar{
+    display: none;
+  }
+  body::-webkit-scrollbar{
+    display: none;
+  }
+
+.bookmarkview{
+    width: 100%;
+    
+}
+
+.book_credits{
+    width: 100%;
+    
+    
+}
+.book_credits .line{
+    position: relative;
+    top: 32px;
+    height: 2px;
+    background: black;
+}
+.book_credits h6{
+    position: relative;
+    top: 40px;
+    font-size: 18px;
+    text-align: center;
+    font-family: Poppins ,sans-serif;
+    font-weight: bold;
+    color: rgb(37, 36, 36);
+}
+.book_credits h6 a{
+    color: red;
+}
+.bookmarkview Button{
+    width: 90px;
+    height: 40px;
+    margin-left: 30px;
+    margin-top:60px;
+    background-color: transparent;
+    border: 2px solid red;
+    border-radius: 8px;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+  }
+.bookmarkview Button:hover{
+    background-color:rgb(192, 59, 59) !important;
+    border: 1px solid rgb(192, 59, 59);
+}
+  @media only screen and (max-width:750px){
+    .containerhome{
+      
+        
+    }
+    .menu-bar{
+        width: 12%;
+    }
+    .menu-items{
+        width: 80% !important;
+        
+    }
+    .icons{
+        width: 200% !important;
+        margin-left: 11px;
+        
+    }
+    .menu-bar .menu-name li{
+        display: none !important;
+    }
+    .menu-items:last-child{
+        width: 10.8% !important;
+        
+    } 
+    
+    .menubar svg{
+        display: block !important;
+    }
+    
+    .menu-bar .active{
+       left: -50px !important;
+    }
+    .card:hover #title{
+        visibility:hidden;
+    }
+    .card img {
+        width:140px; 
+        height: 200px;
+    }
+    .header img{
+        visibility: hidden;
+    }
+    .description_section{
+        
+        
+    }
+    .movieimage{
+        
+        
+    }
+    .movieimage img{
+        width: 150px !important;
+        margin-left: 25px;
+    }
+    .title{
+        padding-left: 30px;
+        
+    }
+    .date{
+        padding-left: 30px;
+    }
+    iframe{
+        width: 110% ;
+        height: 200%;
+        
+    }
+  }
+

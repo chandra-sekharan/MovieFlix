@@ -1,0 +1,77 @@
+
+
+.header{
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+.menubar{
+    width: 60px;
+    margin-top: 20px;
+    height: 50px;
+    margin-left: 20px;
+}
+.header .menubar svg{
+    width: 20%;
+    position: relative;
+    width: 25px;
+    display:none;
+}
+
+.header .logo{
+   
+   width: 50%;
+   display: flex;
+   align-items: center;
+}
+.header img{
+    position:relative;
+    background-color: black;
+    width: 170px; 
+}
+.header form{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    
+}
+.header form input[type="text"]{
+    position: relative;
+    width: 55%;
+    height: 20px;
+    padding: 7px 20px;
+    outline: none;
+}
+input:focus::-webkit-input-placeholder {
+    color:rgb(255, 19, 11);
+}
+
+
+.header form button {
+  padding-top: 2px;
+  padding-bottom:2px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 0px 8px 8px 0px;
+  background-color: #eb1313;
+  border: none;
+}
+.header form svg {
+    position: relative;
+    height: 30px;
+    left: 0px;
+    width: 20px;
+    background-color:rgb(236, 8, 8);
+}
+.user{
+    position: relative;
+    float: right;
+    top: -192px;
+    right: -30px;
+    width: 50px;
+    height: 50px;
+}
+
+#menuicon.active{
+    fill:skyblue;
+}

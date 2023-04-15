@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.menu-bar{
+    background-color:black;
+    transition: all 0.5s ease;
+    
+}
+.menu_fixer{
+  margin-top: 20px;
+  display: grid;
+  row-gap: 37.5px;
+}
+.menu-bar.active {
+    margin-left: -70px;
+    
+}
+.menu-items {
+    width: 180px;
+    height: 50px;
+    margin: auto;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    column-gap: 7px;
+    
+}
+
+.menu-items:hover{
+    background-color: rgba(255, 255, 255, 0.397);
+}
+.menu-bar li {
+    color:white;
+    list-style: none;
+    font-size: 18px;
+    width: 100%;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    
+}
+.icons{
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  
+  justify-content:center;
+}
+.menu-name{
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content:start;
+  
+}
+
+.trending{
+    fill: #000;
+}
+#tvshows{
+fill-rule:evenodd;
+}
+.active{
+ fill: red;   
+}
+.menu-items:last-child{
+  background-color: #f60707;
+  transition: all 0.4s ease;
+  border-radius: 0px !important;
+  bottom: 0px;
+  position: fixed;
+ }
+ .menu-items:last-child.active{
+    left: 0px;
+ }
+ .menu-items:last-child:hover{
+    background-color: rgb(175, 8, 8);
+ }
+#setting{
+    transition: all 0.4s ease;
+}
+.rotate{
+    transform: rotate(90deg) scale(1.5) ;
+}
+.settingPopup{
+    position:fixed;
+    width: 100px;
+    height: 50px;
+    border-radius: 12px;
+    display: none;
+    left: 90%;
+    top: 10px;
+    transition: all 0.4s ease;
+    z-index: 999;
+    
+}
+.settingPopup.active{
+    display: block;
+}
+.checkbox {
+  opacity: 0;
+  position: relative;
+}
+
+.label {
+  width: 40px;
+  height: 15px;
+  background-color:#111;
+  display: flex;
+  border-radius:50px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  position: relative;
+  transform: scale(1.5);
+  left: 25px;
+  top: -5px;
+}
+
+.ball {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  border-radius: 50%;
+  transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .label .ball{
+  transform: translateX(24px);
+}
+.fa-moon {
+    color: pink;
+  }
+  
+  .fa-sun {
+    color: yellow;
+  }
+  body.dark {
+    background-color: rgb(8, 8, 8);
+  }
+  
+  body.dark h6{
+    color: white;
+  }
+  body.dark h1{
+    color: white;
+  }
+  body.dark h3{
+    color: white;
+  }
+  body.dark h5{
+    color: white;
+  }
+  body.dark p{
+    color: white;
+  }
+  body.dark Button{
+    color: white;
+  }
+  body.dark span{
+    color: white;
+  }

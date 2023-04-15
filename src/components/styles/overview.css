@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Poppins,sans-serif;
+}
+.mainoverview{
+    width: 100%;
+}
+.mainoverview Button{
+    width: 90px;
+    height: 40px;
+    margin-left: 30px;
+    margin-top:60px;
+    background-color: transparent;
+    border: 2px solid red;
+    border-radius: 8px;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.mainoverview Button:hover{
+    background-color:rgb(192, 59, 59) !important;
+    border: 1px solid rgb(192, 59, 59);
+}
+.overview{
+    margin-top: 20px;
+    
+}
+.overview .movieposter{
+    width: 100%;
+    display: flex;
+    background-color: rgb(161, 161, 161);
+}
+.movieimage{
+    width: 30%;
+    height: 278px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.movieimage img{
+    position: relative;
+    top: 0px;
+    width: 180px;
+    height: 260px;
+    border-radius: 8px;
+    box-shadow: 2px 3px 6px black;
+}
+.des-section{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+}
+.description{
+    width: 70%;
+    display: flex;
+    padding-left: 30px;
+}
+.bookmarks{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.description p{
+    font-size: 23px;
+    color:black;
+}
+.bookmark{
+    width: 90px;
+    height: 30px;
+    padding: 10px;
+    color:black;
+    border: 2px solid red;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.description_section{
+    display:grid;
+    align-items: center;
+}
+.bookmark:hover{
+    background-color: rgb(153, 10, 10);
+    border: 1px solid rgb(153, 10, 10);
+    color: #fff;
+}
+.bookmark:hover svg{
+    fill: #fff !important;
+}
+.title{
+    position: relative;
+    width: 100%;
+    height: 50px;
+
+}
+h1{
+    position: relative;
+    color: black;
+}
+.date{
+    width: 80%;
+    height: 50px;
+}
+h3{
+    position: relative;
+    top: 10px;
+    left:0px;
+    font-size: 18px;
+    color: black;
+}
+.rating-sec{
+    width: 20%;
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.rating{
+    width: 30px;
+    height: 30px;
+}
+h5{
+    position: relative;
+    font-size: 18px;
+    color: black;
+}
+.bookmark.active{
+    background-color:rgb(153, 10, 10);
+    border: 1px solid rgb(153, 10, 10);
+    color: #fff;
+}
+.bookmark.active svg{
+    fill: #fff !important;
+    
+}
+.video_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.video{
+    position: relative;
+    display: flex;
+}
